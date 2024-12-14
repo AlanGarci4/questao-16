@@ -1,0 +1,27 @@
+{
+  "validLogin": {
+    "email": "usuario@exemplo.com",
+    "cpf": "123.456.789-00",
+    "senha": "senhaSegura123"
+  },
+  "invalidEmail": {
+    "email": "usuario@.com",
+    "cpf": "123.456.789-00",
+    "senha": "senhaSegura123"
+  },
+  "invalidCpf": {
+    "email": "usuario@exemplo.com",
+    "cpf": "000.000.000-00",
+    "senha": "senhaSegura123"
+  },
+  "invalidPassword": {
+    "email": "usuario@exemplo.com",
+    "cpf": "123.456.789-00",
+    "senha": "000000"
+  },
+  "emptyFields": {
+    "email": "",
+    "cpf": "",
+    "senha": ""
+  }
+}
